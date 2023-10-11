@@ -1,0 +1,68 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+}
+.innerContainer {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.imgSize {
+  width: 100%;
+  height: 60%;
+}
+.heading {
+  font-size: 40px;
+  background-color: #ffbf1f;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.counter {
+  width: 50%;
+  height: 100%;
+  background-color: #ffc533;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.enterCharacter {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.characterHeading {
+  color: #ffc533;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.inputcontainer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.input {
+  width: 80%;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  outline: none;
+}
+.buttonAdd {
+  background-color: #ffc533;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
